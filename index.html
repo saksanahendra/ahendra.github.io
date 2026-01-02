@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<title>ERP Industri</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 p-6">
+
+<nav class="flex gap-4 mb-6">
+<a href="index.html">Dashboard</a>
+<a href="materials.html">Material</a>
+<a href="assets.html">Aset</a>
+<a href="products.html">Produk</a>
+<a href="orders.html">Order</a>
+<a href="spk.html">SPK</a>
+<a href="invoice.html">Invoice</a>
+<a href="reports.html">Laporan</a>
+</nav>
+
+<div class="bg-white p-6 rounded-xl">
+<h1 class="font-black text-xl">Dashboard</h1>
+<p>Total Revenue: <b id="rev"></b></p>
+</div>
+
+<script src="js/db.js"></script>
+<script src="js/charts.js"></script>
+<script>
+document.getElementById("rev").innerText = rupiah(totalRevenue());
+</script>
+</body>
+</html>

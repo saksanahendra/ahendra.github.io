@@ -1,0 +1,90 @@
+/* ========= ERP BASE STYLE ========= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+/* NAVIGATION */
+nav {
+  background: #0f172a;
+  padding: 12px 20px;
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* CONTAINER */
+.container {
+  padding: 24px;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.05);
+  margin-bottom: 20px;
+}
+
+/* FORM */
+input, select, button {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+}
+
+button {
+  background: #0f172a;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #020617;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th {
+  text-align: left;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #64748b;
+  padding-bottom: 6px;
+}
+
+td {
+  padding: 6px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* KPI */
+.kpi {
+  font-size: 22px;
+  font-weight: 800;
+}
